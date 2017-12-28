@@ -1,0 +1,8 @@
+server:
+        port: 8083
+        tomcat:
+          uri-encoding: UTF-8
+kxcomm:
+    name: jiajianfeng,hahaha
+    gender: 1
+    age: 20
