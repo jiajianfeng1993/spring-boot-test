@@ -3,12 +3,14 @@ package springbootexample.springboothello;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import springbootexample.springboothello.properties.BeanProperties;
 
 @SpringBootApplication
 @RestController
+@EnableTransactionManagement
 public class SpringBootHelloApplication {
 
     @Autowired
