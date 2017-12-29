@@ -6,3 +6,6 @@ kxcomm:
     name: jiajianfeng,hahaha
     gender: 1
     age: 20
+spring:
+  thymeleaf:
+    cache: false
